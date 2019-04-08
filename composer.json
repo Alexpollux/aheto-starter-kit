@@ -1,0 +1,24 @@
+{
+	"name": "aheto-starter-kit",
+	"description": "Aheto Starter Kit",
+	"keywords": ["wordpress", "plugin"],
+	"homepage": "https://upqode.com",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Shakeeb Ahmed",
+			"email": "me@shakeebahmed.com"
+		}
+	],
+	"require": {
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Aheto_Kit\\": "includes/"
+		},
+		"classmap" : [ "includes/" ],
+		"files": [],
+		"optimize-autoloader": true
+	}
+}
